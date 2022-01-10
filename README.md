@@ -10,7 +10,10 @@ The second component consist of pedestrian tracking using Deep-SORT. Deep SORT-b
 The third major component is a pedestrian intention prediction network based on Graph Convolution Network (GCN) and skeleton-based body keypoints. A 25x25 dimensional Adjacency matrix is constructed based on the 25 body keypoints and their connection among each other representing skeletal structure.A GCN-based intention prediction model is trained on the Joint Attention in Autonomous Driving (JAAD) dataset.
 
 ### Overall process for Pedestrian Intention Prediction
+![Alt text](raw_images/overall_process.png?raw=true "Title")
 
 ### Preview on cross-road scenario
-(a) Crossing scenario
-(b) Not-crossing scenario 
+(a) Crossing scenario <br>
+(b) Not-crossing scenario <br>
+<br>
+![plot](./raw_images/c_nc_imgs_2.png)
